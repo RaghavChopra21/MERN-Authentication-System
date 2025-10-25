@@ -15,7 +15,7 @@ const port = process.env.PORT || 4000
 // 1. Define allowed origins: Frontend URL (from .env) and local dev URL
 // process.env.FRONTEND_URL will be the live domain (e.g., https://myauthapp.vercel.app)
 const allowedOrigins = [
-  process.env.FRONTEND_URL, 
+  'https://mern-authentication-system-gamma.vercel.app/', 
   'http://localhost:5173' 
 ];
 
