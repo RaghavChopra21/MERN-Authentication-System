@@ -43,7 +43,7 @@ app.use(cookieParser());
 app.use(cors(corsOptions)); // Apply the new dynamic CORS options
 
 // API Endpoints
-app.get('/', (req, res) => res.send("API Working"));
+app.get('/', (req, res) => res.send("API Working- CORS checked"));
 app.use('/api/auth', authRouter)
 app.use('/api/user', userRouter)
 
